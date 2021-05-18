@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("folder")
+@RequestMapping("folders")
 public class MainController {
     @Autowired
     private final CardRepository cardRepository;

@@ -15,7 +15,7 @@ import java.util.List;
 @Entity
 public class Folder {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String theme;
     private String creator;
